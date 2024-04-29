@@ -2,7 +2,7 @@
 using namespace std;
 void addElements(int m[][2], int rows, int cols) {
     cout << "Enter elements of the matrix:" << endl;
-    for (int i= 0;i=rows;i++) {
+    for (int i=0;i<rows;i++) {
         for (int j=0; j<cols;j++) {
             cout << "Enter element ["<<i<<"]["<<j<<"]: ";
             cin >> m[i][j];
