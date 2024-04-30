@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-void swap(int &x,int &y)
-{ int t=x; x=y; y=t;}
+
 
 void shift(int files[], int &n)
 {
